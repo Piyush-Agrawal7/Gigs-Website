@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     font-family: "Alkatra", cursive;
+     font-family: "Delicious Handrawn", cursive;
+     font-family: "Poppins", sans-serif;
+     font-family: "Roboto Slab", serif;
+     font-family: "Secular One", sans-serif;
+     overflow-x: hidden;
+     text-rendering: optimizeLegibility;
+    
+
+}
+
+ /* PRELOADER ANIMATION CSS CODE ../Vanilla-1s-265px.svg */
+
+ #preloader{
+    position: fixed;
+    background: #fff url(../Images/gigslogo.png) no-repeat center center;
+    opacity: 0.9;
+    background-size: 40em;
+    height: 100vh;
+    width: 100%;
+
+    z-index: 10000;
+ }
+
+ :root {
+    --animate-delay: 2s;
+  }
+
+  /* ------------------------------------------------------------------------------------------------ */
+/* GO TO TOP BUTTON  */
+/* ------------------------------------------------------------------------------------------------ */
+#myBtn {
+   
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    /* background: linear-gradient(45deg, rgb(154, 50, 206) , rgb(51, 167, 255)); */
+    color: white; /* Text color */
+    background: orange;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    height: 40 px !important;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+

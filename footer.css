@@ -1,0 +1,111 @@
+
+footer{
+
+    /* background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.9)) ,url(..//Images/footerbg3.jpeg) ; */
+    background-size: cover;
+    background:  #E6F7FF;
+    border-radius: 50px;
+   
+}
+
+.mb-10{
+    color: black !important;
+}
+.tracking-widest{
+    /* background: linear-gradient(0deg, rgb(240, 249, 110) , rgb(64, 182, 255)); */
+    -webkit-text-fill-color: transparent;
+    background: orange;
+    -webkit-background-clip: text;
+    background-clip: none;
+    font-weight: bolder;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.icon{
+    color: whitesmoke;
+}
+
+.copyrightdiv{
+
+    color: rgb(38, 33, 33);
+}
+
+/* HOVER EFFECT ON FOOTER LINKS  */
+
+.list-none li a:hover{
+color: #6366F1;
+    text-decoration: underline;
+}
+
+.cardcolor {
+    width: 100% !important;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 10px solid black !important;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+   .cardcolor .text-gray-900{
+    color: darkblue;
+    font-size: 25px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+
+
+  .cardcolor:hover{
+    font-size: larger;
+    /* color: whitesmoke !important;
+    background-color: black !important; */
+    
+}
+/* ion hover color code start */
+.cardcolor:hover #mail{
+  color: purple !important;
+}
+
+.cardcolor:hover #linkedin{
+  color: lightskyblue;
+}
+
+.cardcolor:hover #youtube{
+  color: rgb(220, 20, 20);
+}
+
+.cardcolor:hover #telegram{
+  color: lightblue;
+}
+/* ion hover color code end */
+
+.cardcolor:hover .text-gray-900{
+  color: yellow;
+}
+
+.cardcolor ion-icon{
+    color: black ;
+}
+
+.cardcolor p{
+    color: black;
+}
+.cardcolor:hover p{
+  color: white;
+}
+
+/* contact header color code finish */
+
+.copyrightdiv span ion-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.container span{
+  background: orange;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: none;
+}

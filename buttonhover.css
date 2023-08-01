@@ -1,0 +1,196 @@
+
+ /************************************************
+ *********** MIDDLE SPLIT HOVER CSS **************
+ *************************************************/
+
+
+ .btnmiddle {
+    position: relative;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    margin: 10px 20px;
+    color: white;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+    
+}
+
+.btnmiddle::before{
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    /* background: linear-gradient(45deg, rgb(154, 50, 206) , rgb(51, 167, 255)) !important; */
+    transition: 0.4s all ease-in-out 0s;
+    background: orange;
+  
+}
+
+/* ___________________________________ */
+/* _____ MIDDLE UP HOVER CSS START______ */
+/* ___________________________________ */
+
+.middleup::before {
+    width: 100%;
+    height: 0;
+}
+
+.middleup:hover::before {
+    height: 100%;
+}
+
+
+/* ___________________________________ */
+/* _____ MIDDLE SPLIT HOVER CSS START______ */
+/* ___________________________________ */
+.middlesplit::before {
+    height: 100%;
+    width: 0;
+}
+
+.middlesplit:hover::before {
+    width: 100%;
+}
+/* Middle slide hover end */
+
+
+/* ___________________________________ */
+/* _____ SIDE WISE HOVER CSS START______ */
+/* ___________________________________ */
+.btn-3::before {
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn-3:hover::before {
+    height: 380%;
+}
+
+.btn-4::before {
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn-4:hover::before {
+    height: 380%;
+}
+
+
+
+
+ /************************************************
+ ************* SLIDE HOVER CSS *******************
+ *************************************************/
+
+ .btnslide {
+    position: relative;
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    margin: 0 20px;
+    color: white;
+    border: 2px solid #000 !important;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+
+}
+
+
+ .btnslide:hover{
+    color: white;
+    
+    
+ }
+
+ .btnslide::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* background: linear-gradient(180deg, orange ,darkblue); */
+    transition: 0.4s all ease-in-out 0s;
+    background: orange;
+ }
+
+/* ___________________________________ */
+/* _____ UPSLIDE HOVER CSS START______ */
+/* ___________________________________ */
+ .upslide::before{
+    height: 0;
+ }
+
+ .upslide:hover::before{
+    top: unset;
+    bottom: 0;
+    height: 100%;
+ }
+
+ /* ___________________________________ */
+/* _____ DOWNSLIDE HOVER CSS START______ */
+/* ___________________________________ */
+
+.downslide::before{
+    top: unset;
+    height: 0;
+    bottom: 0;
+ }
+
+ .downslide:hover::before{
+    bottom: unset;
+    top: 0;
+    height: 100%;
+ }
+
+  /* ___________________________________ */
+/* _____ RIGHT SLIDE HOVER CSS START______ */
+/* ___________________________________ */
+
+.rightslide::before{
+   left: unset;
+   right: 0;
+    width: 0;
+ }
+
+ .rightslide:hover::before{
+   right: unset;
+   left: 0;
+   width: 100%;
+ }
+
+
+ /* ___________________________________ */
+/* _____ LEFT SLIDE HOVER CSS START______ */
+/* ___________________________________ */
+
+.leftslide::before{
+    right: unset;
+    left: 0;
+     width: 0;
+  }
+ 
+  .leftslide:hover::before{
+    left: unset;
+    right: 0;
+    width: 100%;
+  }
+
+
+/* ___________________________________ */
+/* ___________THANK YOU ! ___________ */
+/* ___________________________________ */
